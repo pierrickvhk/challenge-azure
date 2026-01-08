@@ -1,0 +1,75 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+.vscode/
+.vs/
+
+# =========================
+# Azure Functions (general)
+# =========================
+bin/
+obj/
+csx/
+edge/
+Publish/
+.python_packages/
+
+# Local settings / secrets (NEVER commit)
+local.settings.json
+.secrets/
+secrets/
+appsettings.json
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+
+# =========================
+# Node (if ever used)
+# =========================
+node_modules/
+
+# =========================
+# Data (optional - keep if you don't want data in git)
+# =========================
+data/
+App_Data/
+
+# =========================
+# Test / tooling leftovers (mostly .NET)
+# Keep only if you still generate these
+# =========================
+*.user
+*.suo
+*.cscfg
+*.Cache
+project.lock.json
+packages/
+TestResults/
+tools/NuGet.exe
+
+# =========================
+# Azurite
+# =========================
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
